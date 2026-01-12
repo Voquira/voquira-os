@@ -1,0 +1,19 @@
+title: Voquira OS
+description: The operating system for service-based businesses.
+theme: minima
+
+baseurl: "/voquira-os"
+url: "https://billbotprocessing-star.github.io"
+
+markdown: kramdown
+
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+
+defaults:
+  - scope:
+      path: "docs"
+    values:
+      layout: docs
