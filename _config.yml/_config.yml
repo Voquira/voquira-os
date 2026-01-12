@@ -3,7 +3,7 @@ description: The operating system for service-based businesses.
 theme: minima
 
 baseurl: "/voquira-os"
-url: "https://billbotprocessing-star.github.io"
+url: "https://voquira.github.io"
 
 markdown: kramdown
 
