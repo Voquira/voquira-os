@@ -1,4 +1,5 @@
 ---
-layout: page
+layout: docs
 title: Installation
 ---
+
