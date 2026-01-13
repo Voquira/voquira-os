@@ -1,10 +1,12 @@
----
-layout: default
----
+<div class="docs-page">
+  {% if page.hero %}
+    <section class="docs-hero">
+      <h1>{{ page.hero.title }}</h1>
+      <p>{{ page.hero.subtitle }}</p>
+    </section>
+  {% endif %}
 
-<div class="page">
-  <h1>{{ page.title }}</h1>
-  <div class="page-content">
+  <article class="docs-article">
     {{ content }}
-  </div>
+  </article>
 </div>
