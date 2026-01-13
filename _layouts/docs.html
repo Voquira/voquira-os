@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="docs-layout">
+  <aside class="docs-sidebar">
+    {% for section in site.data.docs-nav %}
+      <h3>{{ section.title }}</h3>
+      <ul>
+        {% for item in section.items %}
+          <li>
+            <a href="{{ item.url | relative_url }}">
+              {{ item.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  </aside>
+
+  <main class="docs-content">
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+  </main>
+</div>
