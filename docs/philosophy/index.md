@@ -1,9 +1,10 @@
 ---
 layout: docs
 title: Philosophy
+hero:
+  title: Systems, Not Software
+  subtitle: Voquira OS is built to run service businesses as operational systems — not feature checklists.
 ---
-
-## The Philosophy Behind Voquira OS
 
 Voquira OS exists because service businesses do not suffer from a lack of tools.  
 They suffer from a lack of **systems**.
