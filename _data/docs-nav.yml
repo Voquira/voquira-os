@@ -1,0 +1,27 @@
+- title: Getting Started
+  items:
+    - title: Overview
+      url: /docs/
+    - title: Installation
+      url: /docs/get-started/installation/
+
+- title: Core Concepts
+  items:
+    - title: Architecture
+      url: /docs/core/architecture/
+
+- title: Operations
+  items:
+    - title: Jobs
+      url: /docs/operations/jobs/
+    - title: Scheduling
+      url: /docs/operations/scheduling/
+
+- title: Industries
+  items:
+    - title: Landscaping
+      url: /docs/industries/landscaping/
+    - title: Pest Control
+      url: /docs/industries/pest-control/
+    - title: Plumbing
+      url: /docs/industries/plumbing/
