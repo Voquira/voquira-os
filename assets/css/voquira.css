@@ -1,17 +1,40 @@
+/* Base typography */
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #1f2933;
+  line-height: 1.6;
 }
 
+/* Generic page layout */
 .page {
   max-width: 960px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 2.5rem 1.25rem;
+}
+
+/* Headings */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
 }
 
 h1, h2, h3 {
   letter-spacing: -0.02em;
 }
 
+/* Links */
 a {
   color: #3ccf91;
   text-decoration: none;
@@ -20,8 +43,46 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* Docs layout */
+.docs-layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 2.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem;
+}
+
+/* Sidebar */
+.docs-sidebar {
+  border-right: 1px solid #e5e7eb;
+  padding-right: 1.25rem;
+}
+
+.docs-sidebar h3 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #6b7280;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.docs-sidebar ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.docs-sidebar li {
+  margin: 0.4rem 0;
+}
+
+/* Sidebar links */
 .docs-sidebar a {
-  color: #444;
+  color: #374151;
+  font-size: 0.95rem;
 }
 
 .docs-sidebar a:hover {
@@ -31,4 +92,37 @@ a:hover {
 .docs-sidebar a.active {
   font-weight: 600;
   color: #3ccf91;
+}
+
+/* Docs content */
+.docs-content {
+  max-width: 900px;
+}
+
+/* Improve paragraph spacing */
+.docs-content p {
+  margin-bottom: 1rem;
+}
+
+/* Lists inside docs */
+.docs-content ul,
+.docs-content ol {
+  margin: 1rem 0 1.5rem 1.25rem;
+}
+
+/* Code blocks (future-proofing) */
+.docs-content code {
+  background: #f3f4f6;
+  padding: 0.15rem 0.35rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.docs-content pre {
+  background: #111827;
+  color: #e5e7eb;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
 }
