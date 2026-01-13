@@ -28,15 +28,6 @@ Each layer has a clear responsibility and limited scope.
 
 ---
 
-## Conceptual Architecture Diagram
-
-![Voquira OS Architecture Diagram](/voquira-os/assets/images/voquira-architecture.svg)
-
-This flow is **continuous**, not linear.  
-Feedback loops constantly update the system state.
-
----
-
 ## Inputs Layer
 
 The Inputs layer captures **signals from the business**.
@@ -143,20 +134,6 @@ Event → Model → Agent → Execution → Feedback
 This difference is what allows Voquira OS to operate as **infrastructure**, not just software.
 
 ---
-
----
-
-## System Architecture Diagram
-
-<p align="center">
-  <img
-    src="/assets/images/voquira-architecture.svg"
-    alt="Voquira OS Architecture Diagram"
-    width="100%"
-  />
-</p>
-
-_This diagram shows how Voquira OS coordinates inputs, operations, AI agents, execution systems, and feedback loops._
 
 ## Summary
 
