@@ -199,6 +199,20 @@ This difference is what allows Voquira OS to operate as **infrastructure**, not 
 
 ---
 
+---
+
+## System Architecture Diagram
+
+<p align="center">
+  <img
+    src="/assets/images/voquira-architecture.svg"
+    alt="Voquira OS Architecture Diagram"
+    width="100%"
+  />
+</p>
+
+_This diagram shows how Voquira OS coordinates inputs, operations, AI agents, execution systems, and feedback loops._
+
 ## Summary
 
 - Voquira OS is layered, not monolithic
