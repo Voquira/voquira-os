@@ -9,7 +9,10 @@ layout: default
       <ul>
         {% for item in section.items %}
           <li>
-            <a href="{{ item.url | relative_url }}">
+            <a
+              href="{{ item.url | relative_url }}"
+              class="{% if page.url == item.url %}active{% endif %}"
+            >
               {{ item.title }}
             </a>
           </li>
