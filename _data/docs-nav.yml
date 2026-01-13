@@ -40,8 +40,3 @@
   items:
     - title: Voquira OS vs Jobber & ServiceTitan
       url: /docs/positioning/voquira-vs-traditional-platforms/
-
-- title: Architecture
-  items:
-    - title: Diagram
-      url: /docs/core/architecture/diagram/
