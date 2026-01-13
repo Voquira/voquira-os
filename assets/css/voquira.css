@@ -20,3 +20,15 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.docs-sidebar a {
+  color: #444;
+}
+
+.docs-sidebar a:hover {
+  color: #3ccf91;
+}
+
+.docs-sidebar a.active {
+  font-weight: 600;
+  color: #3ccf91;
+}
