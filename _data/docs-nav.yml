@@ -30,3 +30,8 @@
   items:
     - title: Overview
       url: /docs/agents/
+
+- title: Philosophy
+  items:
+    - title: Principles
+      url: /docs/philosophy/
