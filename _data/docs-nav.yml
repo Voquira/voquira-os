@@ -11,6 +11,8 @@
       url: /docs/core/architecture/
     - title: Diagram
       url: /docs/core/architecture/diagram/
+    - title: Data Flow
+      url: /docs/architecture/data-flow/
 
 - title: Operations
   items:
