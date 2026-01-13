@@ -9,6 +9,8 @@
   items:
     - title: Architecture
       url: /docs/core/architecture/
+    - title: Diagram
+      url: /docs/core/architecture/diagram/
 
 - title: Operations
   items:
