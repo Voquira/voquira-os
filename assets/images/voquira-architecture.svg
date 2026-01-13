@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="780" viewBox="0 0 1200 780" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Voquira OS Architecture Diagram">
+  <defs>
+    <style>
+      :root {
+        --ink: #0f172a;
+        --muted: #64748b;
+        --border: #e2e8f0;
+        --bg: #ffffff;
+        --panel: #f8fafc;
+        --accent: #3ccf91;
+        --arrow: #94a3b8;
+      }
+
+      .title { font: 700 20px system-ui, -apple-system, Segoe UI, sans-serif; fill: var(--ink); }
+      .subtitle { font: 500 14px system-ui, -apple-system, Segoe UI, sans-serif; fill: var(--muted); }
+      .section { font: 700 16px system-ui, -apple-system, Segoe UI, sans-serif; fill: var(--ink); }
+      .text { font: 500 14px system-ui, -apple-system, Segoe UI, sans-serif; fill: var(--ink); }
+      .muted { font: 500 13px system-ui, -apple-system, Segoe UI, sans-serif; fill: var(--muted); }
+
+      .card {
+        fill: var(--panel);
+        stroke: var(--border);
+        stroke-width: 1.5;
+        rx: 14;
+      }
+
+      .accent-bar {
+        fill: var(--accent);
+      }
+
+      .line {
+        stroke: var(--arrow);
+        stroke-width: 2.5;
+        fill: none;
+        marker-end: url(#arrowHead);
+      }
+    </style>
+
+    <marker id="arrowHead" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="var(--arrow)" />
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="780" fill="#ffffff"/>
+
+  <!-- Header -->
+  <text class="title" x="60" y="60">Voquira OS — System Architecture</text>
+  <text class="subtitle" x="60" y="86">
+    Event-driven operational intelligence layer for service-based businesses
+  </text>
+
+  <!-- Inputs -->
+  <rect class="card" x="120" y="130" width="960" height="90"/>
+  <rect class="accent-bar" x="120" y="130" width="6" height="90"/>
+  <text class="section" x="150" y="165">Inputs</text>
+  <text class="text" x="150" y="192">
+    Forms · CRM events · Job creation · Schedule changes · Payments · APIs · Weather
+  </text>
+
+  <!-- Core Model -->
+  <rect class="card" x="120" y="250" width="960" height="150"/>
+  <rect class="accent-bar" x="120" y="250" width="6" height="150"/>
+  <text class="section" x="150" y="285">Core Operational Model (Source of Truth)</text>
+  <text class="text" x="150" y="315">
+    Jobs · Visits · Schedules · Crews / Technicians
+  </text>
+  <text class="text" x="150" y="345">
+    Customers / Properties · Invoices · Status & Events
+  </text>
+  <text class="muted" x="150" y="372">
+    All state changes are explicit, auditable, and event-driven
+  </text>
+
+  <!-- Agents -->
+  <rect class="card" x="120" y="430" width="960" height="120"/>
+  <rect class="accent-bar" x="120" y="430" width="6" height="120"/>
+  <text class="section" x="150" y="465">Automation & AI Agents</text>
+  <text class="text" x="150" y="495">
+    Dispatcher · Scheduling Optimizer · AR · Customer Comms · Compliance
+  </text>
+  <text class="muted" x="150" y="522">
+    Agents execute within rules, constraints, and human-defined authority
+  </text>
+
+  <!-- Execution -->
+  <rect class="card" x="120" y="590" width="460" height="120"/>
+  <rect class="accent-bar" x="120" y="590" width="6" height="120"/>
+  <text class="section" x="150" y="625">Execution Systems</text>
+  <text class="text" x="150" y="655">
+    Field crews · Technicians · Scheduling tools
+  </text>
+  <text class="text" x="150" y="682">
+    Billing platforms · Messaging channels
+  </text>
+
+  <!-- Outputs -->
+  <rect class="card" x="620" y="590" width="460" height="120"/>
+  <rect class="accent-bar" x="620" y="590" width="6" height="120"/>
+  <text class="section" x="650" y="625">Outputs & Feedback</text>
+  <text class="text" x="650" y="655">
+    Job completion · Invoices sent · Payments received
+  </text>
+  <text class="text" x="650" y="682">
+    Customer notifications · Operational metrics
+  </text>
+
+  <!-- Down arrows -->
+  <path class="line" d="M600 220 L600 250"/>
+  <path class="line" d="M600 400 L600 430"/>
+  <path class="line" d="M350 550 L350 590"/>
+  <path class="line" d="M850 550 L850 590"/>
+
+  <!-- Feedback loop -->
+  <path class="line" d="M1080 650 C1140 650 1140 180 1080 180"/>
+  <text class="muted" x="980" y="170">Continuous feedback loop</text>
+</svg>
