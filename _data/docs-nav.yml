@@ -35,3 +35,8 @@
   items:
     - title: Principles
       url: /docs/philosophy/
+
+- title: Positioning
+  items:
+    - title: Voquira OS vs Jobber & ServiceTitan
+      url: /docs/positioning/voquira-vs-traditional-platforms/
