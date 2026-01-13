@@ -30,62 +30,7 @@ Each layer has a clear responsibility and limited scope.
 
 ## Conceptual Architecture Diagram
 
-┌──────────────────────────────┐
-│ Inputs Layer │
-│──────────────────────────────│
-│ • Web forms │
-│ • CRM events │
-│ • Job creation │
-│ • Schedule changes │
-│ • Payments │
-│ • External APIs │
-└───────────────┬──────────────┘
-│
-▼
-┌──────────────────────────────┐
-│ Core Operational Model │
-│──────────────────────────────│
-│ • Jobs │
-│ • Visits │
-│ • Schedules │
-│ • Crews / Technicians │
-│ • Customers & Properties │
-│ • Invoices │
-└───────────────┬──────────────┘
-│
-▼
-┌──────────────────────────────┐
-│ Automation & AI Agents │
-│──────────────────────────────│
-│ • Dispatcher Agent │
-│ • Scheduling Agent │
-│ • AR Agent │
-│ • Comms Agent │
-│ • Compliance Agent │
-└───────────────┬──────────────┘
-│
-▼
-┌──────────────────────────────┐
-│ Execution Systems │
-│──────────────────────────────│
-│ • Field crews │
-│ • Technicians │
-│ • Scheduling tools │
-│ • Billing platforms │
-│ • Communication channels │
-└───────────────┬──────────────┘
-│
-▼
-┌──────────────────────────────┐
-│ Outputs & Feedback │
-│──────────────────────────────│
-│ • Job completion │
-│ • Invoices sent │
-│ • Payments received │
-│ • Customer notifications │
-│ • Operational metrics │
-└──────────────────────────────┘
-
+![Voquira OS Architecture Diagram](/voquira-os/assets/images/voquira-architecture.svg)
 
 This flow is **continuous**, not linear.  
 Feedback loops constantly update the system state.
