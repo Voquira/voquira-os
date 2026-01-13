@@ -17,13 +17,3 @@ flowchart TD
     E --> A
 
 
-### Why this is the best choice
-- No asset paths
-- No baseurl issues
-- Renders natively on GitHub Pages
-- Easy to modify as the system evolves
-- Matches your written architecture **exactly**
-
-After commit, refresh:
-
-
