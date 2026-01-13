@@ -25,3 +25,8 @@
       url: /docs/industries/pest-control/
     - title: Plumbing
       url: /docs/industries/plumbing/
+
+- title: AI Agents
+  items:
+    - title: Overview
+      url: /docs/agents/
